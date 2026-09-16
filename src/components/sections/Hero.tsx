@@ -38,7 +38,7 @@ export function Hero() {
             {/* Professional 3-line max bio */}
             <div className="mt-5 max-w-2xl mx-auto lg:mx-0">
               <p className="text-base sm:text-lg text-slate-600 dark:text-slate-300 leading-relaxed font-normal">
-                Computer Science Engineering student with hands-on experience across Machine Learning, Deep Learning, Computer Vision, NLP, Data Science, Generative AI, RAG, and Agentic AI. Experienced in building practical AI systems, analytical solutions, and intelligent applications using modern machine learning and LLM technologies.
+                Building intelligent, data-driven solutions that turn complex data into actionable insights, predictive models, and AI-powered applications. Experienced in Data Analysis, Machine Learning, Deep Learning, Computer Vision, NLP, Generative AI, RAG, and Agentic AI.
               </p>
             </div>
 

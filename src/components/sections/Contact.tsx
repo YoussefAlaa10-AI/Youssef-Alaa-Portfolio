@@ -3,7 +3,7 @@
 import React from 'react';
 import { profileData } from '@/data/profile';
 import { Mail, Sparkles, Award } from 'lucide-react';
-import { GithubIcon, LinkedinIcon, KaggleIcon } from '@/components/ui/Icons';
+import { GithubIcon, LinkedinIcon, KaggleIcon, WhatsAppIcon } from '@/components/ui/Icons';
 
 export function Contact() {
   return (
@@ -28,14 +28,26 @@ export function Contact() {
           Available for innovative opportunities, full-time engineering positions, and collaborative research initiatives across AI, Machine Learning, Data Science, and Generative AI.
         </p>
 
-        {/* Primary CTA: Email Me */}
+        {/* Primary CTA: Email Me & WhatsApp */}
         <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+          {/* Email */}
           <a
             href={`mailto:${profileData.links.email}`}
             className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-2xl text-base font-bold bg-blue-600 hover:bg-blue-700 text-white transition-all duration-200 shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 hover:-translate-y-0.5 cursor-pointer"
           >
             <Mail className="w-5 h-5" />
             <span>Email Me</span>
+          </a>
+
+          {/* WhatsApp */}
+          <a
+            href="https://wa.me/201030414764"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-2xl text-base font-bold bg-green-600 hover:bg-green-700 text-white transition-all duration-200 shadow-lg shadow-green-500/30 hover:shadow-xl hover:shadow-green-500/40 hover:-translate-y-0.5 cursor-pointer"
+          >
+            <WhatsAppIcon className="w-5 h-5" />
+            <span>WhatsApp</span>
           </a>
         </div>
 

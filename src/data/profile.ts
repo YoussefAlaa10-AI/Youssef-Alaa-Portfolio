@@ -2,23 +2,24 @@ export const profileData = {
   name: "Youssef Alaa Mohamed Abdella",
   shortName: "Youssef Alaa",
   headline: "AI Engineer | Data Scientist | Data Analyst",
-  bio: "Computer Science Engineering student with hands-on experience across Machine Learning, Deep Learning, Computer Vision, NLP, Data Science, Generative AI, RAG, and Agentic AI. Experienced in building practical AI systems, analytical solutions, and intelligent applications using modern machine learning and LLM technologies.",
-  aboutParagraph: "A Computer Science Engineering student dedicated to architecting end-to-end artificial intelligence solutions and robust data systems. With extensive practical experience spanning predictive modeling, computer vision pipelines, natural language understanding, and state-of-the-art agentic RAG architectures, I focus on transforming complex data challenges into high-performance, business-ready applications.",
+  bio: "Building intelligent, data-driven solutions that turn complex data into actionable insights, predictive models, and AI-powered applications. Experienced in Data Analysis, Machine Learning, Deep Learning, Computer Vision, NLP, Generative AI, RAG, and Agentic AI.",
+  aboutParagraph: "I design and build end-to-end AI and data solutions, from data analysis and predictive modeling to intelligent applications powered by Deep Learning, NLP, Generative AI, RAG, and AI Agents. My work focuses on transforming raw data and complex problems into practical, scalable solutions through data-driven analysis, machine learning pipelines, computer vision systems, and LLM-powered applications.",
   highlights: [
     "AI Engineer",
     "Data Scientist",
     "Data Analyst",
-    "Kaggle Master",
-    "Computer Science Engineering Student"
+    "Generative AI & Agentic AI Engineer",
+    "Kaggle Master"
   ],
   focusAreas: [
+    "Data Analysis",
     "Machine Learning",
+    "Data Science",
     "Deep Learning",
     "Computer Vision",
     "NLP",
     "Generative AI",
-    "Agentic AI",
-    "Data Science"
+    "Agentic AI"
   ],
   links: {
     github: "https://github.com/YoussefAlaa10-AI",
