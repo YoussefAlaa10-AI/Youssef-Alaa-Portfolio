@@ -90,7 +90,9 @@ export function Hero() {
 
               {/* Email */}
               <a
-                href={`mailto:${profileData.links.email}`}
+                href={`https://mail.google.com/mail/?view=cm&fs=1&to=${profileData.links.email}`}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-4.5 py-2.5 rounded-xl text-sm font-semibold bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-100 hover:bg-slate-50 dark:hover:bg-slate-700/80 border border-slate-200 dark:border-slate-700/80 transition-all duration-200 shadow-sm hover:shadow-md hover:-translate-y-0.5 cursor-pointer"
               >
                 <Mail className="w-4 h-4 text-rose-500" />
